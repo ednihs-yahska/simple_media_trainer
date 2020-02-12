@@ -16,6 +16,9 @@
 		A147960B23F3B0670003A617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A147960923F3B0670003A617 /* LaunchScreen.storyboard */; };
 		A147961623F3B0670003A617 /* Simple_Media_TrainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A147961523F3B0670003A617 /* Simple_Media_TrainingTests.swift */; };
 		A147962123F3B0670003A617 /* Simple_Media_TrainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A147962023F3B0670003A617 /* Simple_Media_TrainingUITests.swift */; };
+		A147963023F3BD160003A617 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A147962F23F3BD160003A617 /* HomeView.swift */; };
+		A147963223F3BFDA0003A617 /* TrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A147963123F3BFDA0003A617 /* TrainingView.swift */; };
+		A147963423F3BFED0003A617 /* ReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A147963323F3BFED0003A617 /* ReportsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		A147961C23F3B0670003A617 /* Simple_Media_TrainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Simple_Media_TrainingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A147962023F3B0670003A617 /* Simple_Media_TrainingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_Media_TrainingUITests.swift; sourceTree = "<group>"; };
 		A147962223F3B0670003A617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A147962F23F3BD160003A617 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A147963123F3BFDA0003A617 /* TrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingView.swift; sourceTree = "<group>"; };
+		A147963323F3BFED0003A617 /* ReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		A14795FA23F3B0660003A617 /* Simple_Media_Training */ = {
 			isa = PBXGroup;
 			children = (
+				A147962E23F3BCE30003A617 /* Views */,
 				A14795FB23F3B0660003A617 /* AppDelegate.swift */,
 				A14795FD23F3B0660003A617 /* SceneDelegate.swift */,
 				A147960223F3B0660003A617 /* ContentView.swift */,
@@ -137,6 +144,16 @@
 				A147962223F3B0670003A617 /* Info.plist */,
 			);
 			path = Simple_Media_TrainingUITests;
+			sourceTree = "<group>";
+		};
+		A147962E23F3BCE30003A617 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A147962F23F3BD160003A617 /* HomeView.swift */,
+				A147963123F3BFDA0003A617 /* TrainingView.swift */,
+				A147963323F3BFED0003A617 /* ReportsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +290,9 @@
 				A14795FC23F3B0660003A617 /* AppDelegate.swift in Sources */,
 				A147960123F3B0660003A617 /* Simple_Media_Training.xcdatamodeld in Sources */,
 				A147960323F3B0660003A617 /* ContentView.swift in Sources */,
+				A147963423F3BFED0003A617 /* ReportsView.swift in Sources */,
+				A147963023F3BD160003A617 /* HomeView.swift in Sources */,
+				A147963223F3BFDA0003A617 /* TrainingView.swift in Sources */,
 				A14795FE23F3B0660003A617 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
