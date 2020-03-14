@@ -17,25 +17,8 @@ struct OptionStyle: ViewModifier {
 struct HomeView: View {
     var body: some View {
         VStack{
-            ScrollView(.horizontal, showsIndicators: true) {
-                HStack{
-                    Button(action: {}) {
-                        Image(systemName: "video")
-                    }.modifier(OptionStyle())
-                    Button(action: {}) {
-                        Image(systemName: "video")
-                    }
-                    Button(action: {}) {
-                        Image(systemName: "video")
-                    }
-                    Button(action: {}) {
-                        Image(systemName: "video")
-                    }
-                    Button(action: {}) {
-                        Image(systemName: "video")
-                    }
-                }.padding(.all)
-            }
+            OptionSliderView(titles: ["Open Flame", "Other Flame", "Fire Training 1", "Fire Training 2", "Fire Training 3"])
+            OptionSliderView(titles: ["Earthquake 1", "Earthquake 2", "Earthquake 3", "Eathquuake 4", "Earthquake 5"])
         }
     }
 }

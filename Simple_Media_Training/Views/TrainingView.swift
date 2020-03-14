@@ -10,7 +10,15 @@ import SwiftUI
 
 struct TrainingView: View {
     var body: some View {
-        Text("Training View")
+        VStack {
+            Rectangle()
+                .fill(Color.white)
+                .padding()
+                
+            Rectangle()
+                .fill(Color.black)
+                .padding()
+        }
     }
 }
 

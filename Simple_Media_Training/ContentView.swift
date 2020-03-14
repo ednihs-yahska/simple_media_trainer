@@ -19,21 +19,22 @@ struct ContentView: View {
                     Image(systemName: "studentdesk")
                     Text("Training")
                 }
-            }
-            HomeView()
+            }.navigationBarTitle("Training")
+            //HomeView()
+            MasterView()
             .tabItem {
                 VStack {
                     Image(systemName: "house")
                     Text("Home")
                 }
-            }
+            }.navigationBarTitle("Home")
             ReportsView()
             .tabItem {
                 VStack {
                     Image(systemName: "person.circle")
                     Text("My Reports")
                 }
-            }
+            }.navigationBarTitle("My Reports")
         }
     }
 }
